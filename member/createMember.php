@@ -6,9 +6,12 @@
  * Time: 1:54 PM
  */
 
-    header('Access-Control-Allow-Origin: *');
-//    header("Access-Control-Allow-Methods: GET, OPTIONS, POST");
-    header("Access-Control-Allow-Headers: *");
+header("Access-Control-Allow-Origin: *");
+//'Access-Control-Allow-Origin': '*',
+//              'Access-Control-Allow-Credentials':true,
+//              'Access-Control-Allow-Methods':'POST, GET'
+    header("Access-Control-Allow-Methods: POST");
+    header('Access-Control-Allow-Credentials:false');
 
     include_once '../db.php';
     include_once '../models/member.php';
@@ -17,7 +20,13 @@
     $cnct = $dbcnct ->getConnection();
     $user = new member($cnct);
 
-    if ($_POST){
-        http_response_code(300);
-//       echo json_encode($user->create($_POST));
+
+    $data = json_decode( file_get_contents( 'php://input' ), true );
+    echo sizeof($data);
+
+    if(!empty($data) && sizeof($data) === 6) {
+        echo 'success';
+    } else {
+        http_response_code(422);
+        echo 'invalid parameters';
     }
