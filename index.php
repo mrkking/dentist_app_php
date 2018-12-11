@@ -14,7 +14,7 @@
     $cnct = $dbcnct ->getConnection();
 
 //    echo json_encode($cnct->query('select * from member'));
-
+   
 
     if ($_POST['name']){
         echo 'test';

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc809fe6-8488-4261-b14f-17da3dfd83a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SQL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +42,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="65" />
+          <entry key="php" value="66" />
           <entry key="sql" value="2" />
           <entry key="sqls" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="65" />
+          <entry key="PHP" value="66" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
@@ -58,14 +58,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="php" value="5516" />
+          <entry key="php" value="5519" />
           <entry key="sqls" value="1" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="5516" />
+          <entry key="PHP" value="5519" />
           <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
@@ -78,6 +78,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SQL.sql">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -155,7 +164,6 @@
         <option value="$PROJECT_DIR$/models/appointment.php" />
         <option value="$PROJECT_DIR$/appointments/removeAppointment.php" />
         <option value="$PROJECT_DIR$/member/removeMember.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/employee/createEmployee.php" />
         <option value="$PROJECT_DIR$/member/updateMember.php" />
         <option value="$PROJECT_DIR$/models/employee.php" />
@@ -164,6 +172,7 @@
         <option value="$PROJECT_DIR$/member/getMember.php" />
         <option value="$PROJECT_DIR$/db.php" />
         <option value="$PROJECT_DIR$/member/createMember.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -234,12 +243,12 @@
       <updated>1540868329029</updated>
       <workItem from="1540868331116" duration="689000" />
       <workItem from="1543252353370" duration="467000" />
-      <workItem from="1544366752012" duration="50041000" />
+      <workItem from="1544366752012" duration="50135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51197000" />
+    <option name="totallyTimeSpent" value="51291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="85" width="1440" height="900" extended-state="0" />
@@ -358,13 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/service.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="753">
@@ -443,6 +445,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SQL.sql">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
